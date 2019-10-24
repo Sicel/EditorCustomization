@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Equipment : MonoBehaviour
+public class I_Equipment : MonoBehaviour
 {
     [Header("Equipment Stats")]
-    [SerializeField]
-    protected int durability = 10;
+    public int durability = 10;
 }

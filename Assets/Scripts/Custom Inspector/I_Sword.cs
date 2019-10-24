@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sword : Equipment
+public class I_Sword : I_Equipment
 {
     [Header("Sword Stats")]
     [SerializeField]
